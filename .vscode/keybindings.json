@@ -76,5 +76,42 @@
     "key": "ctrl+9",
     "command": "workbench.action.openEditorAtIndex9",
     "when": "!terminalFocus"
+  },
+  {
+    "key": "cmd+h",
+    "command": "workbench.action.focusSideBar",
+    "when": "editorTextFocus || terminalFocus"
+  },
+  {
+    "key": "cmd+h",
+    "command": "workbench.view.search.focus",
+    "when": "activeViewlet == 'workbench.view.search' && !inputFocus"
+  },
+  {
+    "key": "cmd+h",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "editorIsOpen && !editorTextFocus && !view.terminal.visible"
+  },
+  {
+    "key": "cmd+k",
+    "command": "search.focus.nextInputBox",
+    "when": "inSearchEditor && inputBoxFocus || inputBoxFocus && searchViewletVisible"
+  },
+  {
+    "key": "cmd+l",
+    "command": "search.focus.previousInputBox",
+    "when": "inSearchEditor && inputBoxFocus || inputBoxFocus && searchViewletVisible && !searchInputBoxFocus"
+  },
+  {
+    "key": "alt+cmd+;",
+    "command": "search.action.collapseSearchResults"
+  },
+  {
+    "key": "alt+cmd+'",
+    "command": "search.action.expandSearchResults"
+  },
+  {
+    "key": "alt+cmd+0",
+    "command": "search.action.focusSearchList"
   }
 ]
