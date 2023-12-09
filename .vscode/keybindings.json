@@ -178,5 +178,28 @@
     "key": "ctrl+alt+cmd+]",
     "command": "editor.unfoldRecursively",
     "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "alt+\\",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
   }
 ]
