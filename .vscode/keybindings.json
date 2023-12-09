@@ -148,5 +148,35 @@
     "key": "cmd+m cmd+m",
     "command": "editor.emmet.action.matchTag",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+[",
+    "command": "editor.fold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "cmd+]",
+    "command": "editor.unfold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "alt+cmd+[",
+    "command": "editor.foldAll",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "alt+cmd+]",
+    "command": "editor.unfoldAll",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+alt+cmd+[",
+    "command": "editor.foldRecursively",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+alt+cmd+]",
+    "command": "editor.unfoldRecursively",
+    "when": "editorTextFocus && foldingEnabled"
   }
 ]
